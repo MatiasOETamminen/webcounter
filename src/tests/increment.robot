@@ -6,6 +6,7 @@ Suite Teardown  Close Browser
 *** Test Cases ***
 At start the counter is zero
     Go To  ${HOME_URL}
+    Click  button >> text=Nollaa    
     Get Title  ==  Laskuri
     Get Text  body  *=  nappia painettu 0 kertaa
 
